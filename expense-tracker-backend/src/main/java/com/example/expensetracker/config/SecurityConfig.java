@@ -42,11 +42,12 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(List.of(
-                "http://localhost:5173",
-                "http://localhost:5174",
-                "http://localhost:3000",
-                "https://expense-tracker-six-sigma-41.vercel.app"
-        ));
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "http://localhost:3000",
+    "https://expense-tracker-git-main-balas-projects-c2cdf002.vercel.app",
+    "https://expense-tracker-r5oaqulb8-balas-projects-c2cdf002.vercel.app"
+));
 
         configuration.setAllowedMethods(Arrays.asList(
                 "GET",
